@@ -12,19 +12,19 @@
         <div>
             <h4 class="text-sm font-semibold text-[#1d1a21] mb-6">PRODUK</h4>
             <ul class="space-y-4">
-                <li><a class="text-slate-500 hover:text-[#6E4AB6] transition-colors text-sm font-light" href="#">Tabungan Digital</a></li>
-                <li><a class="text-slate-500 hover:text-[#6E4AB6] transition-colors text-sm font-light" href="#">Kartu Kredit</a></li>
-                <li><a class="text-slate-500 hover:text-[#6E4AB6] transition-colors text-sm font-light" href="#">Pinjaman Kilat</a></li>
-                <li><a class="text-slate-500 hover:text-[#6E4AB6] transition-colors text-sm font-light" href="#">Investasi</a></li>
+                <li><a class="text-slate-500 text-sm font-light" href="#">Tabungan Digital</a></li>
+                <li><a class="text-slate-500 text-sm font-light" href="#">Kartu Kredit</a></li>
+                <li><a class="text-slate-500 text-sm font-light" href="#">Pinjaman</a></li>
+                <li><a class="text-slate-500 text-sm font-light" href="#">Investasi</a></li>
             </ul>
         </div>
         <div>
             <h4 class="text-sm font-semibold text-[#1d1a21] mb-6">DUKUNGAN</h4>
             <ul class="space-y-4">
-                <li><a class="text-slate-500 hover:text-[#572d97] transition-colors text-sm font-light" href="#">Pusat Bantuan</a></li>
-                <li><a class="text-slate-500 hover:text-[#572d97] transition-colors text-sm font-light" href="#">Kebijakan Privasi</a></li>
-                <li><a class="text-slate-500 hover:text-[#572d97] transition-colors text-sm font-light" href="#">Syarat & Ketentuan</a></li>
-                <li><a class="text-slate-500 hover:text-[#572d97] transition-colors text-sm font-light" href="#">Hubungi Kami</a></li>
+                <li><a class="text-slate-500 text-sm font-light" href="#">Pusat Bantuan</a></li>
+                <li><a class="text-slate-500 text-sm font-light" href="#">Kebijakan Privasi</a></li>
+                <li><a class="text-slate-500 text-sm font-light" href="#">Syarat & Ketentuan</a></li>
+                <li><a class="text-slate-500 text-sm font-light" href="#">Hubungi Kami</a></li>
             </ul>
         </div>
         <div>
@@ -83,6 +83,6 @@
         </div>
     </div>
     <div class="max-w-7xl mx-auto mt-12 pt-6 border-t border-[#ccc3d3] text-center">
-        <p class="text-xs text-[#5d5f5f]">© {{ date('Y') }} MyBank Indonesia</p>
+        <p class="text-xs font-bold text-slate-500">© {{ date('Y') }} MyBank</p>
     </div>
 </footer>
