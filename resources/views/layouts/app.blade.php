@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'My App')</title>
+    <link rel="icon" href="{{ asset('images/icon.png') }}">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     @vite('resources/css/app.css')
 </head>

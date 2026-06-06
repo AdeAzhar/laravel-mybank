@@ -13,7 +13,11 @@
     </div>
 
     <div class="flex items-center gap-6">
-        <button class="hidden sm:block  text-sm text-[#6E4AB6] font-semibold px-6 py-2 hover:bg-[#ede6f0] rounded-full transition-all active:scale-95">Register</button>
-        <button class="bg-[#6E4AB6] text-[#ffffff]  text-sm font-semibold px-8 py-2 rounded-full shadow-sm hover:shadow-lg hover:brightness-110 transition-all active:scale-95">Log in</button>
+        <a href="{{ url('/register') }}">
+            <button class="hidden sm:block  text-sm text-[#6E4AB6] font-semibold px-6 py-2 hover:bg-[#ede6f0] rounded-full transition-all active:scale-95">Register</button>
+        </a>
+        <a href="{{ url('/login') }}">
+            <button class="bg-[#6E4AB6] text-[#ffffff]  text-sm font-semibold px-8 py-2 rounded-full shadow-sm hover:shadow-lg hover:brightness-110 transition-all active:scale-95">Log in</button>
+         </a>
     </div>
 </header>

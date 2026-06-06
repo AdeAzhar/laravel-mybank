@@ -15,9 +15,11 @@
                         Wujudkan kebebasan finansial bersama MyBank. Kami memberikan Anda kendali penuh untuk mengelola keuangan kapan saja dan di mana saja secara instan.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-6">
-                        <button class="bg-[#6E4AB6] text-[#ffffff] font-bold text-lg px-12 py-6 rounded-xl shadow-xl hover:shadow-[#572d97]/20 transition-all active:scale-95 flex items-center justify-center gap-2">
-                            Daftar Sekarang
-                        </button>
+                        <a href="{{ url('/register') }}">
+                            <button class="bg-[#6E4AB6] text-[#ffffff] font-bold text-lg px-12 py-6 rounded-xl shadow-xl hover:shadow-[#572d97]/20 transition-all active:scale-95 flex items-center justify-center gap-2">
+                                Daftar Sekarang
+                            </button>
+                        </a>
                     </div>
                 </div>
                 
